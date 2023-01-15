@@ -3,7 +3,7 @@ const statText = document.querySelector(".statText");
 const restartBtn = document.querySelector(".restartBtn");
 const myMusic = document.querySelector(".myMusic");
 const invisBtn = document.querySelector(".invisBtn");
-myMusic.volume = 0.2;       //als background muziek niet werkt verander dit naar 0.3 of terug naar 0.2
+myMusic.volume = 0.2;       //als background muziek niet werkt verander dit naar 0.3 of terug naar 0.2 totdat het werkt
 
 
 
