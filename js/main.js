@@ -1,3 +1,5 @@
+//Ik had alles gemaakt in OneDrive in het begin dus er zijn niet veel commit messages
+
 const cells = document.querySelectorAll(".cell");
 const statText = document.querySelector(".statText");
 const restartBtn = document.querySelector(".restartBtn");
@@ -16,7 +18,7 @@ const winConditions = [
     [2, 5, 8],
     [0, 4, 8],
     [2, 4, 6],
-];
+]; // elke mogelijke manier om te winnen
 
 let options = ["", "", "", "", "", "", "", "", "",];
 let currentPlayer = "X";
@@ -53,7 +55,7 @@ function updateCell(cell, index){
 function changePlayer(){
     currentPlayer = (currentPlayer == "X") ? "O" : "X"
     statText.textContent = `${currentPlayer}'s turn`;
-
+ //veranderd text onder bij een andere turn
 }
 
 function checkWinner(){
